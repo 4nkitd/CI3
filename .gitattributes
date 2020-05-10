@@ -7,19 +7,3 @@
 .gitattributes export-ignore
 # .gitignore
 
-# helper config files
-.travis.yml export-ignore
-phpdoc.dist.xml export-ignore
-
-# Misc other files
-readme.rst
-
-# They don't want all of our tests...
-tests/codeigniter/ export-ignore
-tests/travis/ export-ignore
-
-# User Guide Source Files
-user_guide_src
-
-# User Guide Compiled Files
-user_guide export-ignore
